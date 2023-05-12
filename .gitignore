@@ -4,6 +4,9 @@
 #env
 *.env
 
+#terraform
+.terraform
+
 # Logs
 logs
 *.log

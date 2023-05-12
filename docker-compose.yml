@@ -3,7 +3,7 @@ services:
   terraform:
     image: hashicorp/terraform:1.3.5
     container_name: 'tfapp'
-    working_dir: /terraform   #コンテナ内の作業ディレクトリ指定
+    working_dir: /terraform
     volumes:
       - .:/terraform
     env_file:
